@@ -70,7 +70,11 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 *,
 *::before,
 *::after {
