@@ -636,6 +636,11 @@ progress {
   content: "— ";
 }
 
+.capimg {
+  float: left;
+  padding: 10px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -654,6 +659,19 @@ progress {
   max-height: 270px;
   max-width: 100%;
   border-radius: 0.5rem;
+}
+
+.img-roportaj-inline {
+  max-height: 470px;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin: 15px;
+  float: left;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-roportaj-inline:hover {
+  transform: scale(1.1);
 }
 
 .figure {
